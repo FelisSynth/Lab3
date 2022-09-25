@@ -13,17 +13,18 @@
     </head>
     <body>
         <h1>Simple Note Keeper</h1>
-        <h2>View Note</h2>
+        <h2>Edit Note</h2>
         
-        <form>
+        <form action="note" method="post">
             <label>
                 Title:
-                <input type="text">
+                <input type="text" name="title">
             </label>
             <br>
             <label for="contents">Contents:</label>
-            <textarea id="contents"></textarea>
-            <button type="submit">Submit</button>
+            <textarea id="contents" name="contents"></textarea>
+            <br>
+            <button type="submit">Save</button>
                 
         </form>
     </body>
