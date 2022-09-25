@@ -15,11 +15,14 @@
         <h1>Simple Note Keeper</h1>
         <h2>View Note</h2>
         
-        <p>
+        <form>
             <label>
                 Title:
                 <input type="text">
             </label>
-        </p>
+            <br>
+            <label for="contents">Contents:</label>
+            <textarea id="contents"></textarea>
+        </form>
     </body>
 </html>
