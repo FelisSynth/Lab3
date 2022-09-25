@@ -23,6 +23,8 @@
             <br>
             <label for="contents">Contents:</label>
             <textarea id="contents"></textarea>
+            <button type="submit">Submit</button>
+                
         </form>
     </body>
 </html>

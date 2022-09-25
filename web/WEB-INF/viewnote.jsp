@@ -17,12 +17,12 @@
         
         <p>
             <strong>Title:</strong>
-            This is the title
+            ${note.title}
         </p>
         
         <p>
             <strong>Contents:</strong><br>
-            Contents go here
+            ${note.contents}
         </p>
         
         <a href="editnote">Edit</a>
